@@ -1,0 +1,168 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My First Web Page</title>
+        <!-- In-Document CSS-->
+        <style type="text/css">
+            
+            /*h1 {color:red;font-family: Arial;} */
+            h1
+            {
+                color:white;
+                background-color: black;
+                /* padding adds space inside an object */
+                padding: 20px;
+                text-align: center;
+                font-size:22px;
+            }
+            body
+            {
+                font-family: Arial;
+                font-size: 20px;
+                color:white;
+                background-color: #696865;
+                background-image: url(images/body_bg.png);
+                
+                /* repeat attributes and values */
+                
+                /*background-repeat: repeat-x;*/
+                /*background-repeat: repeat-y;*/
+                background-repeat: :repeat;
+                
+            }
+            
+            /* Styleing hypertext links */
+            a:link
+            {
+                color: #b6eb35;
+            }
+            a:visited
+            {
+                color: #b6eb35;
+            }
+            
+            a:hover
+            {
+                color:orange;
+                text-decoration: none;
+            }
+            
+            a:active
+            {
+                color:black;
+                text-decoration: underline;
+            }
+            
+            h2
+            {
+                background-color: #3d4952;
+                padding:10px;
+                border: 2px solid #dcdedf;
+                text-align: center;
+            }
+            
+            /* List styling */
+            
+            #drinks
+            {
+                font-size: 25px;
+                /* list-style-type: circle; */
+                /* list-style-type: square; */
+                
+            }
+            .hobbies
+            {
+                list-style-type: upper-roman;
+            }
+            
+            span
+            {
+                font-weight: normal;
+                color: orange;
+            }
+            #large
+            {
+                width: 500px;
+                height: 300px;
+                border: 2px solid black;
+                padding 10px;
+                color:black;
+                text-align: center;
+                line-height: 292px;
+            }
+            
+        </style>
+	</head>
+	
+	<body>
+	<!--Heading Tags = Block Level Elements -->
+	<h1>Heading One Tag | <span>Most Important Heading</span></h1>
+	<h2>Heading Two</h2>
+	<h3 id="large">Heading Three</h3>
+	<h4>Heading Four</h4>
+	<h5>Heading Five</h5>
+	<h6>Heading Six</h6>
+	
+	<hr>
+	<!-- Inserting Images -->
+	<img width="450" src="images/batmobile.jpg" alt="1960's TV Show Batmobile" title="1960's TV Show Batmobile">
+        
+    <img src="images/car.jpg" alt="Concept Car" title="concept Car">
+	
+	<!-- Below is a Horizontal Rule = Block Level Element -->
+	<hr>
+	<!-- Lists -->
+	
+	
+	<h2>Lists</h2>
+	<!-- Unordered List = Bulleted List -->
+	<ul id="drinks">
+		<!-- List items -->
+		<li>Beer</li>
+		<li>Coffee</li>
+		<li>Water</li>
+	
+	</ul>
+	
+	<!-- Ordered List = Numbered List -->
+	
+	<ol class = "hobbies">
+		<li>Guitar</li>
+		<li>Painting</li>
+		<li>Drinking</li>
+	</ol>
+	
+	<hr>
+	
+	<!-- Hypertext Links -->
+	<h2>Hypertext Links</h2>
+	<!-- links use the anchor tag = inline element -->
+	<h4>Visit <a href="http://www.amazon.com">Amazon</a> for some cool stuff!</h4>
+	
+	<hr>
+	
+	<!-- Open a link in a new browser tab or window -->
+	
+	<h4><a href="http://www.ledzeppelin.com" target="_blank">Visit Led Zeppelin's Official Website.</a></h4>
+	
+	<!-- Paragraph Tag = Block Level Element -->
+	<h2>Paragraph tags</h2>
+        <p>Wafer cupcake soufflé. Ice cream marzipan macaroon. Cotton candy jelly pastry jelly-o donut. Lemon drops cake chupa chups tart biscuit chupa chups croissant brownie. Dragée macaroon croissant macaroon croissant muffin wafer macaroon jelly. Sweet roll jujubes wafer chupa chups pastry. Chupa chups tootsie roll tart macaroon soufflé fruitcake tiramisu. Cotton candy icing biscuit bear claw chocolate jelly pudding.</p>
+	
+	<hr>
+	<!-- In Line Tags -->
+	<h2>In Line tags</h2>
+	<p>We can make test <b>bold</b> using the bold tag. </p>
+	<p>We can also make text <strong>bold</strong> using the strong tag.</p>
+	<p>We can make text <i>italic</i> using the italic tag. </p>
+	<p>We can also make the text <em>italic</em> using the emphasis tag.</p>
+	<p>We can break text to another <br>line using the breaking space tag.</p>
+	<p>We &nbsp;can add more character space using the non-breaking space tag.</p>
+	
+	<hr>
+	
+	</body>
+
+</html>

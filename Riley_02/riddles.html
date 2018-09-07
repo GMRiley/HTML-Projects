@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<!-- Link to external Stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Place our Javascript in the head tags -->
+<script>
+// Single line JS comment
+/* Multi-line Comment */
+
+// variables store information
+
+	var store1="A snail";
+	var store2="Nothing";
+	var store3="Rain";
+	var store4="A Candle";
+	var store5="If you answered Nunu, you are wrong. It’s Mary!";
+	var store6="It can have a hole in it.";
+	var store7="There weren’t any stairs, it was a one story house!";
+	var store8="Smiles, because there is a mile between each ‘s’";
+	var store9="A fire!";
+	var store10="Corn on the cob.";
+	
+	function answer1() 
+    {
+		
+		document.getElementById("question1").innerHTML=store1;
+	
+	}
+	
+	
+	function answer2() 
+    {
+	
+		document.getElementById("question2").innerHTML=store2;
+		
+	}
+    function answer3() 
+    {
+	
+		document.getElementById("question3").innerHTML=store3;
+		
+	}
+    function answer4() 
+    {
+	
+		document.getElementById("question4").innerHTML=store4;
+		
+	}
+    function answer5() 
+    {
+	
+		document.getElementById("question5").innerHTML=store5;
+		
+	}
+	function answer6() 
+    {
+	
+		document.getElementById("question6").innerHTML=store6;
+		
+	}
+    function answer7() 
+    {
+	
+		document.getElementById("question7").innerHTML=store7;
+		
+	}
+	function answer8() 
+    {
+	
+		document.getElementById("question8").innerHTML=store8;
+		
+	}
+    function answer9() 
+    {
+	
+		document.getElementById("question9").innerHTML=store9;
+		
+	}
+    function answer10() 
+    {
+	
+		document.getElementById("question10").innerHTML=store10;
+		
+	}
+
+
+
+
+
+</script>
+</head>
+
+<body>
+<!-- Div box that centers and contains all the site content -->
+<div id="main-container">
+	<h1 id="header">Kyle Riley - Riddles</h1>
+	<!-- Div box that holds the primary page navigation -->
+	<div id="nav">
+		<!-- Div box that  will center both nav buttons -->
+		<div id="buttons">
+			<a class="btn" href="index.html">HOME</a>
+			<a class="btn" href="riddles.html">RIDDLES</a>
+		</div><!--/#buttons -->
+		
+	</div><!--/#nav -->
+	
+	<!-- Riddle questions and  content -->
+	
+	<div id="content">
+		<h2 class="section-title">Riddles</h2>
+		<!-- Reusable question classes -->
+		<div class="questions">
+		<p class="question">1. What has a foot but no legs?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer1();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question1"></span>
+	
+		</div><!--/.questions -->  
+		
+		
+				<!-- Reusable question classes -->
+		<div class="questions">
+		<p class="question">2. Poor people have it. Rich people need it. If you eat it you die. What is it?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer2();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question2"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">3. What comes down but never goes up?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer3();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question3"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">4. I’m tall when I’m young and I’m short when I’m old. What am I?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer4();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question4"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">5. Mary’s father has 5 daughters – Nana, Nene, Nini, Nono. What is the fifth daughters name?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer5();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question5"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">6. How can a pants pocket be empty and still have something in it?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer6();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question6"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">7. In a one-story pink house, there was a pink person, a pink cat, a pink fish, a pink computer, a pink chair, a pink table, a pink telephone, a pink shower– everything was pink!What color were the stairs??</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer7();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question7"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">8. What is the longest word in the dictionary?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer8();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question8"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">9. If I drink, I die. If i eat, I am fine. What am I?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer9();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question9"></span>
+	
+		</div><!--/.questions -->
+        <div class="questions">
+		<p class="question">10. Throw away the outside and cook the inside, then eat the outside and throw away the inside. What is it?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer10();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question10"></span>
+	
+		</div><!--/.questions -->
+	
+	
+	
+	</div><!--/#content -->
+	
+	
+	
+	<div id="footer">
+		<p class="copy">&copy; 2018, SE111 HTML/Javascript Class.</p>
+	
+	</div><!--/#footer -->
+	
+	
+
+
+</div><!-- /#main-container -->
+
+</body>
+
+
+
+</html>

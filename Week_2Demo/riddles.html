@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Riddles | Week 2 - Logic | Day 1</title>
+<!-- Link to external Stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Place our Javascript in the head tags -->
+<script>
+// Single line JS comment
+/* Multi-line Comment */
+
+// variables store information
+
+	var store1="The guitarist in Led Zeppelin was Jimmy Page.";
+	
+	var store2="Dead Pool!";
+	
+	function answer1() {
+		
+		document.getElementById("question1").innerHTML=store1;
+		//css in js
+		/*-- document.getElementById("question1").style.fontFamily="Impact";
+		document.getElementById("question1").style.fontSize="30px";
+		document.getElementById("question1").style.color="red"; --*/
+	
+	}
+	
+	
+	function answer2() {
+	
+		document.getElementById("question2").innerHTML=store2;
+		
+	}
+	
+	
+
+
+
+
+
+</script>
+</head>
+
+<body>
+<!-- Div box that centers and contains all the site content -->
+<div id="main-container">
+	<h1 id="header">Week 2 - Riddles</h1>
+	<!-- Div box that holds the primary page navigation -->
+	<div id="nav">
+		<!-- Div box that  will center both nav buttons -->
+		<div id="buttons">
+			<a class="btn" href="index.html">HOME</a>
+			<a class="btn" href="riddles.html">RIDDLES</a>
+		</div><!--/#buttons -->
+		
+	</div><!--/#nav -->
+	
+	<!-- Riddle questions and  content -->
+	
+	<div id="content">
+		<h2 class="section-title">Riddles</h2>
+		<!-- Reusable question classes -->
+		<div class="questions">
+		<p class="question">1. Who played guitar in Led Zeppelin?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer1();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question1"></span>
+	
+		</div><!--/.questions -->  
+		
+		
+				<!-- Reusable question classes -->
+		<div class="questions">
+		<p class="question">1. Who's President of the US?</p>
+			<div class="answer-btn">
+<input type="button" class="get" value="Get Answer" onclick="answer2();">
+		
+			</div><!--/.answer-btn -->
+			
+			<span class="the-answer" id="question2"></span>
+	
+		</div><!--/.questions -->
+	
+	
+	
+	</div><!--/#content -->
+	
+	
+	
+	<div id="footer">
+		<p class="copy">&copy; 2018, SE111 HTML/Javascript Class.</p>
+	
+	</div><!--/#footer -->
+	
+	
+
+
+</div><!-- /#main-container -->
+
+</body>
+
+
+
+</html>

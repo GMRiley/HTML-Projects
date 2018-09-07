@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+body
+{
+    background:url(images/background.gif);
+    margin:0;
+    font-family: 'VT323', monospace;
+    color: ghostwhite;
+    font-size: 22px;
+}
+
+#fixed
+{
+    position: fixed;
+    width:100%;
+    height: 25px;
+    background-color:rgba(0,255,255,0.5);
+    border-bottom:1px solid grey;
+    z-index:1
+}
+#wrapper
+{
+    position: relative;
+    width: 960px;
+    padding: 10px;
+    margin:auto;
+    box-shadow: 0 0 100px black;
+}
+#container
+{
+    position: relative;
+    width: 970px;
+    padding: 10px;
+    height:110px;
+    text-align: center;
+}
+#logo
+{
+    position:absolute;
+    color:ghostwhite;
+    background-color:rgba(211,211,211,0.2);
+    width: 950px;
+    padding: 10px;
+    margin: 95px 0 0 10px;
+    z-index: 1;
+}
+#nav-bar 
+{
+    position: absolute;
+    width: 303px;
+    height: 40px;
+    margin:20px 0 0 645px;
+    
+}
+.btn
+{
+    width:100px;
+    height:40px;
+    background-color:black;
+    display:block;
+    float:left;
+    margin-right:1px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    line-height:40px;
+}
+.button:hover
+{
+    background-color: rgba(255,0,0,0.5)
+}
+span 
+{
+    font-weight:normal;
+    color:#999999;
+    
+}/*Section Styling */
+.section-style
+{
+    position: relative;
+    border-bottom: 3px solid #333333;
+    
+}
+
+.sections
+{
+    position: relative;
+    width: 950px;
+    padding:10px;
+    background-color:black;
+    color:#cccccc;
+}
+.pic
+{
+    position: relative;
+    border:5px solid cyan;
+    width: 950px;
+}
+.txt
+{
+    position:relative;
+    padding: 10px;
+    text-align:center;
+    
+}
+p
+{
+    color: ghostwhite;
+    background: rgba(0,0,0,0.25);
+}
+ a:link
+{
+     color: lightcyan;
+}
+  a:visited
+{
+    color: lightcyan;
+}
+            
+a:hover
+{
+    color:darkcyan;
+    text-decoration: none;
+}
+            
+a:active
+{
+    color:black;
+    text-decoration: underline;
+}

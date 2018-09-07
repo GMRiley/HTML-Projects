@@ -1,0 +1,182 @@
+
+/* Week 2 - Day 1 CSS -----------------------------*/
+
+body {
+	background-color:#999999;
+	background-image:url(images/background.png);
+	font-family:Helvetica,Arial,sans-serif;
+	color:#333333;
+	font-size:18px;
+	
+}
+
+#main-container {
+	/* Margin auto only works on the x axis */ 
+	margin:auto;
+	width:980px;
+	padding:10px;
+	background-color:#abafb1;
+	border:1px solid black;
+	
+}
+
+#header {
+	width:960px;
+	padding:10px;
+	height:100px;
+	background-color:#333333;
+	line-height:100px;
+	/* below gets rid of the default margin on the heading tag */
+	margin:0;
+	color:white;
+	
+	
+}
+
+#nav {
+	width:980px;
+	height:50px;
+	background-color:black;
+	border-top:1px solid white;
+	
+}
+
+#buttons {
+	margin:auto;
+	width:205px;
+	height:50px;
+	/*border:1px red solid;*/
+	
+}
+
+.btn {
+	width:100px;
+	height:50px;
+	/* below turns this inline element into a block level element */
+	display:block;
+	background-color:red;
+	color:white;
+	text-align:center;
+	line-height:50px;
+	text-decoration:none;
+	font-weight:bold;
+	/* below will float the btn left of each other */
+	float:left;
+	margin-right:2px;
+}
+
+
+.btn:hover {
+	background-color:orange;
+	color:black;
+	
+}
+
+/* Section styling below */
+
+.section {
+	width:960px;
+	padding:10px;
+	background-color:#cccccc;
+	border-bottom:3px solid black;
+	margin-top:10px;
+	
+}
+
+.section-title {
+	color:white;
+	width:960px;
+	/* padding and margin shorthand runs clockwise */
+	/* Padding top and padding bottom only below */
+	/*padding:10px 0 10px 0;
+	padding-top:10px;
+	padding-bottom:10px;*/
+	padding:10px 0;
+	background-color:#555555;
+	text-align:center;
+	/* Margin shorthand */
+	margin:0 0 5px 0;
+	
+}
+
+.section-graphic {
+	width:958px;
+	border:1px solid black;
+	
+}
+
+.txt {
+	/* text-align:center; */
+	text-align:justify;
+	
+}
+
+
+#footer {
+	width:960px;
+	text-align:center;
+	padding:10px 0;
+	font-size:10px;
+	
+}
+
+/* Riddles page styling ----------------------------------------*/
+
+#content {
+	background-color:white;
+	width:960px;
+	padding:10px;
+	margin-top:10px;
+	
+}
+
+.questions {
+	width:940px;
+	padding:20px 10px;
+	border-bottom:4px solid #333333;
+	
+}
+.get {
+	border:none;
+	padding:10px 20px;
+	background-color:#333333;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	
+}
+
+.get:hover {
+	background-color:red;
+	
+	
+}
+
+/* single p tag for the riddle question */
+
+.question {
+		padding:5px;
+		text-align:justify;
+
+
+	
+}
+/* span for the riddle answer -------------------------------*/
+
+.the-answer {
+	display:block;
+	margin-top:20px;
+	font-size:14px;
+	font-weight:bold;
+	color:red;
+	font-family:Impact;
+	font-size:24px;
+	
+	
+}
+
+
+
+
+
+

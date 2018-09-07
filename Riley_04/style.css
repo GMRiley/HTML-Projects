@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+html
+{
+    height: 100%;
+    background-color: black;
+    padding: 20px;
+}
+body
+{
+    height: 100%;
+    margin: 0;
+    font-family: 'VT323', monospace;
+    color: ghostwhite;
+    font-size: 22px;
+    background:url(images/background.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#container
+{
+    width: 980px;
+    padding: 10px;
+    margin: auto;
+       background:url(images/background.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#main-header
+{
+    height: 100px;
+    float: left;
+    width: 980px;
+    border-bottom: 2px solid white;
+}
+#name
+{
+    float: left;
+    margin: 0;
+    width: 430px;
+    height: 100px;
+    line-height: 100px;
+    color: lightcyan;
+    font-size: 50px;
+}
+nav
+{
+    float: right;
+    margin-top: 20px;
+}
+.btn
+{
+    display: block;
+    float: left;
+    padding 20px;
+    color: lightcyan;
+    background-color: black;
+    margin-right: 2px;
+}
+.btn:hover
+{
+    background-color:aliceblue;
+    color:ghostwhite''
+}
+#content
+{
+    float: left;
+    width: 600px;
+    padding: 10px;
+    text-align: justify;
+}
+.title
+{
+    margin: 0 0 10px 0;
+    float:left;
+    width: 100%;
+}
+aside
+{
+    float: right;
+    width: 325px;
+    margin-top: 10px;
+    min-height: 300px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+aside img
+{
+    float: left;
+    margin-top: 10px;
+}
+h4
+{
+    float: left;
+    width: 325px;
+    margin: 0 0 5px 0;
+    padding: 6px 0 6px 0;
+    background-color: black;
+    text-align: center;
+    color: ghostwhite;
+}
+footer
+{
+    clear: both;
+    width: 980px;
+    padding: 20px 0 20px 0;
+    border-top: 2px solid color black;
+    
+}

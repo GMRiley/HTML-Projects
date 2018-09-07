@@ -1,0 +1,7 @@
+Smith 23 165 72
+Adams 28 185 73
+Roberts 24 170 70
+Evans 29 145 62
+Bell 30 158 71
+Davis 21 165 68
+Martins 25 195 75

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form Demo</title>
+<link rel="stylesheet" type="text/css" href="form.css"/>
+</head>
+
+<body>
+<div id="container">
+	<h1>Basic Form</h1>
+	<!-- Form -->
+	<form>
+		<!-- left div -->
+		<div class="left">
+		
+		<div class="field">
+		<!-- text input -->
+			<h4>Name:</h4>
+            <input type="text" name="Name">
+            
+			
+		</div>
+		
+		<div class="field">
+			<h4>Email:</h4>
+            <input type="text" name="Email">
+			
+		</div>
+		
+		<div class="field">
+			<h4>Comments</h4>
+			<!-- Textarea -->
+            <textarea name="Comments"></textarea>
+			
+		</div>
+		
+		</div><!--/.left -->
+		
+		<!-- right div -->
+		<div class="right">
+			<div class="field2">
+				
+				<h4>Pick Your Favorite Color?</h4>
+				<!-- Select -->
+                <select name="Color">
+                    
+                    <option value="Purple">Purple</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                    
+                </select>
+				
+			</div>
+			
+			<div class="field2">
+				
+				<h4>Are you Designer or Programmer?</h4>
+				<!-- Radio -->
+                <input type="radio" name="What are you?" value="Designer">Designer <br>
+                <input type="radio" name="What are you?" value="Programmer">Programmer <br>
+				
+			</div>
+			<div class="field2">
+		
+				<h4>What Type of Vehicles Do You Own?</h4>
+				<!-- Checkbox -->
+                <input type="checkbox" name="Vehicle1" value="Car">Car<br>
+                <input type="checkbox" name="Vehicle2" value="Bike">Bike<br>
+                <input type="checkbox" name="Vehicle3" value="Motorcycle">Motorcycle<br>
+                <input type="checkbox" name="Vehicle4" value="Spaceship">Spaceship<br>
+					
+			</div>
+		</div><!--./right -->
+		
+		<div class="submit-box">
+			<!-- Submit -->
+            <input type="submit" value="Submit">
+		
+		
+		</div><!--/.submit-box -->
+		
+	
+	</form>
+
+
+<footer>
+	<p>&copy;2017, GDS111 Class.</p>
+</footer>
+</div><!--/#container -->
+
+
+</body>
+</html>
